@@ -1,0 +1,13 @@
+
+// NBSP on level 2
+// NNBSP on level 3
+// ZWNBSP on level 4
+// Used by custom_arpeur
+partial
+xkb_symbols "nb2nnb3zwnb4" {
+  key <SPCE> {
+    type[Group1]="FOUR_LEVEL",
+    symbols[Group1]= [ space, nobreakspace, 0x100202F, 0x100feff ]
+  };
+};
+
