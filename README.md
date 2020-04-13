@@ -13,11 +13,11 @@ Take a look at `src/my_ara` to check out the layout.
 
 ## Procedure
 
-1. sudo edit /usr/share/X11/xkb/symbols/ara
+1. sudo edit `/usr/share/X11/xkb/symbols/ara`
    1. Copy-paste keyboard layout from `src/my_ara` to end of file.
-2. sudo edit /usr/share/X11/xkb/symbols/nbsp
+2. sudo edit `/usr/share/X11/xkb/symbols/nbsp`
    1. Copy-paste "no-break-space" description from `src/my_nbsp` to end of file.
-3. sudo edit /usr/share/X11/xkb/rules/evdev.xml
+3. sudo edit `/usr/share/X11/xkb/rules/evdev.xml`
    1. Copy-paste the "variant" from `src/my_evdev.xml` and add as additional variant to "ara" layout after "azerty", "qwerty", "buckwalter", etc.
 4. `CTRL-ALT-BACKSPACE` to restart X or log-out and log back in.
 5. Find Keyboard layout settings in Desktop settings/configuration.
