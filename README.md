@@ -24,3 +24,13 @@ Take a look at `src/my_ara` to check out the layout.
    1. Add "Arabic-Persian-Urdu (Custom)" from "Arabic" selection
 6. Pick suitable key to switch layouts. I choose `CAPS LOCK`.
 
+## Vim keymap
+
+On his [blog](https://andreasmhallberg.github.io/typing-arabic-in-vim/), Andreas Hallberg describes a methodolody for BiDi (RTL and LTR) editing in vim. This uses Arabic keymap binding within vim so that it doesn't affect vim commands. 
+
+The vim keymap file is in the directory `vim-keymap`.
+
+For neovim on MacOS , place it in `$HOME/.config/nvim/keymap/`.
+For vim, place it in `$HOME/.vim/keymap/`.
+
+On MacOS, terminal vim (installed using Homebrew) did not work with `:set rightleft`. But neovim on iterm2 worked. For iterm2, in order to use the Mac <kbd>option</kbd> key as the Meta modifier key in neovim, go to iterm2's Settings > Profile > Keys, and select the option to use the <kbd>option</kbd> keys as "Meta".
